@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro |Dancing+Script&display=swap');
+
+html {
+	scroll-behavior: smooth;
+	background-color: #F5F5DC;
+}
+
+body {
+	background-color: #F5F5DC;
+	font-family: "Advent Pro", sans-serif;
+	padding: 0;
+	margin: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 2em;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+/* ******************************* NAVBAR ********************** */
+nav {
+	overflow: hidden;
+	background-color:rgb(235, 206, 168);
+	position: fixed;
+	width: 100%;
+	opacity: 0.9;
+}
+header li {
+	float: right;
+	font-size: 1.2em;
+}
+header li a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+
+}
+#logo {
+	font-family: "Dancing Script", cursive;
+	font-weight: bold;
+	float: left;
+}
+
+
+/* *********** IMAGE PRINCIPALE ************* */
+#imageprincipale {
+	padding-top: 60px;
+	background: url(uett1.jpg) no-repeat fixed 50% 50%;
+	background-size: cover;
+	height: 799px;
+}
+h1 {
+	font-family: "Dancing Script", cursive;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-size: 6em;
+	margin-top: 40px;
+	text-shadow: 1px 3px 2px white;
+}
+#premiertrait {
+	height: 1px;
+	width: 50%;
+	margin: -3px auto;
+	background-color: black;
+	box-shadow: 1px 3px 2px white;
+}
+h3 {
+	text-align: center;
+	color:black;
+	font-size: 3em;
+	text-shadow: 1px 3px 2px white;
+}
+/* ********************PRESENTATION **************** */
+#presantation {
+	background-color: white;
+	padding: 10px 0px 100px 0;
+}
+#textintro {
+	padding: 0px 20%;
+}
+
+#prestation {
+	margin: -20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 10%;
+}
+.prestationimage h4 {
+	font-family: "Dancing Script",cursive;
+	text-align: center;
+	font-size: 1.8em;
+	margin: 15px;
+	font-weight: 300;
+}
+.prestationimage img {
+	width: 60%;
+	margin: 200px;
+	box-shadow: 5px 8px 5px 4px rgba(0,0,0,0.83);
+}
+.prestationimage img:hover {
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition: 0.6s ease-in-out;
+}
+#membres {
+	margin: 0 auto;
+	text-align: center;
+}
+li #membres {
+	margin: 0 auto;
+	text-align: center;
+}
+ol {
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* *************** FOOTER ************* */
+footer {
+	background-color: tan;
+	color: white;
+	padding: 20px 0 10px 0;
+	text-align: center;
+}
+form {
+	margin: 0 auto;
+	min-width: 900px;
+}
+input, textarea, button {
+	border: none;
+	width: 400px;
+	padding: 15px 10px;
+	margin: 1px 0;
+	font-size: 1.2em;
+	font-family: "Advent Pro", sans-serif;
+	border-radius: 12px;
+}
+textarea {
+	height: 120px;
+}
+button {
+	font-size: 1.5em;
+	background-color: #FFFAE1;
+}
+button:hover {
+	background-color: tomato;
+	color: #FFFAE1;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+#deuxiemetrait {
+	height: 1px;
+	width: 75%;
+	background-color: #FFFAE1;
+	margin: 60px auto;
+}
+#copyrighteticon {
+	display: flex;
+	margin-bottom: 20px;
+	padding: 0 10%;
+}
+#copyright {
+	width: 50%;
+	text-align: left;
+	color: #FFFAE1;
+}
+#icons {
+	width: 50%;
+	text-align: right;
+}
+#icons a {
+	display: inline-block;
+	padding: 0 15px;
+	font-size: 1.3em;
+	color: #FFFAE1;
+}
+#icons a:hover {
+	transform: scale(1.5);
+	transition: 0.1s;
+}
+p {
+	text-align: center;
+}
+
+#section1 p {
+	margin: 20px 20px;
+	text-align: center;
+}
+
+
+
+
+#table-style {
+	border-collapse: collapse;
+	min-width: 400px;
+	width: auto;
+	box-shadow: 0 5px 50px rgba(15,154,156,1);
+	cursor: pointer;
+	margin: 100px auto;
+	/*boder: 2px solid midnightblue;*/
+	border: 2px solid #808080;
+}
+thead tr {
+	background-color: #C0C0C0;
+	color: #808080;
+	text-align: left;
+}
+th, td {
+	padding: 15px 20px
+}
+tbody tr, td, th {
+	border: 1px solid #ddd;
+}
+tbody tr:nth-child(even) {
+	background-color: #C0C0C0;
+}
+
+
+h4 {
+	margin: -40px;
+	color: red;
+	text-align: center;
+}
+#ici h4:hover {
+	transform: scale(1.5);
+	transition: 0.1s;
+}

@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro |Dancing+Script&display=swap');
+
+html {
+	scroll-behavior: smooth;
+	background-color: #F5F5DC;
+}
+body {
+	background-color: #F5F5DC;
+	font-family: "Advent Pro", sans-serif;
+	padding: 0;
+	margin: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 2em;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+/* ******************************* NAVBAR ********************** */
+nav {
+	overflow: hidden;
+	background-color:rgb(235, 206, 168);
+	position: fixed;
+	width: 100%;
+	opacity: 0.9;
+}
+header li {
+	float: right;
+	font-size: 1.2em;
+}
+header li a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+
+}
+#logo {
+	font-family: "Dancing Script", cursive;
+	font-weight: bold;
+	float: left;
+}
+/* *********** IMAGE PRINCIPALE ************* */
+#imageprincipale {
+	padding-top: 60px;
+	background: url(uett1.jpg) no-repeat fixed 50% 50%;
+	background-size: cover;
+	height: 799px;
+}
+h1 {
+	font-family: "Dancing Script", cursive;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-size: 6em;
+	margin-top: 40px;
+	text-shadow: 1px 3px 2px white;
+}
+
+/* ***************** TOURISME ************* */
+#tourime {
+	height: 1400px;
+	background-color: black;
+	padding: 1px 2%;
+}
+.slid h2 {
+	padding-top: 60px;
+	border-left: 3px solid black;
+}
+.slid h2:hover {
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition: 0.6s ease-in-out;
+}
+#presi {
+	background: url(pr.jpg);
+}
+#sg {
+	background: url(sg.jpg);
+}
+#sga {
+	background: url(sga.jpg);
+}
+#tg {
+	background: url(tg.jpg);
+}
+#cc {
+	background: url(uett.logo.jpg);
+}
+#cacs {
+	background: url(uett.logo.jpg);
+}
+#ccas {
+	background: url(ccas.jpg);
+}
+/*********************CCS***********************/
+#presiccs {
+	background: url(uett.logo.jpg);
+}
+#sgccs {
+	background: url(uett.logo.jpg);
+}
+#iaafmccs {
+	background: url(uett.logo.jpg);
+}
+#iasaccs {
+	background: url(uett.logo.jpg);
+}
+#iacsccs {
+	background: url(uett.logo.jpg);
+}
+
+/*****/
+#tourisme #BE {
+	margin: 65px 100px 0 100px;
+	height: 226px;
+	width: 25%;
+	background-size: 100%;
+	max-width: 950px;
+	float: left;
+	box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+}
+#tourisme #BE li:hover {
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition: 0.6s ease-in-out;
+}
+#tourisme #BCCS {
+	margin: 65px 100px 0 100px;
+	height: 226px;
+	width: 25%;
+	background-size: 100%;
+	max-width: 950px;
+	float: left;
+	box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+}
+#tourisme #BCCS li:hover {
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition: 0.6s ease-in-out;
+}
+#tourisme li {
+	margin: 65px 100px 0 100px;
+	height: 526px;
+	width: 55%;
+	background-size: 100%;
+	max-width: 950px;
+	float: left;
+	box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+}
+#tourisme li:hover {
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition: 0.6s ease-in-out;
+}
+#tourisme p {
+	height: 125px;
+	width: 235px;
+	background-color: #01DF74;
+	float: right;
+	margin: 50px -180px 0 0;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 15px;
+	box-shadow: 8px 8px 0 1px rgba(90,161,43,1);
+}
+#tourisme #presiccs, #tourisme #iaafmccs, #tourisme #iacsccs {
+	float: right;
+}
+#presiccs p, #iaafmccs p, #iacsccs p {
+	float: left;
+	background-color: orange;
+	margin-left: -180px;
+	box-shadow: -4px 4px 0 1px rgba(15,154,156,1);
+}
+#tourisme #sg, #tourisme #tg, #tourisme #cacs {
+	float: right;
+}
+#sg p, #tg p, #cacs p {
+	float: left;
+	background-color: cyan;
+	margin-left: -180px;
+	box-shadow: -4px 4px 0 1px rgba(15,154,156,1);
+}
+blockquote {
+	text-align: center;
+}
+/* *************** FOOTER ************* */
+footer {
+	background-color: tan;
+	color: white;
+	padding: 20px 0 10px 0;
+	text-align: center;
+	margin: 50px;
+}
+
+/* ******* animation mht*********/
+			.slider{
+				width: 650px;
+				overflow: hidden;
+				margin: 150px auto;
+				height: 600px;
+			}
+			.slides{
+				width: calc(600px * 6);
+				animation: glisse 15s infinite;
+			}
+			.slide{
+				float: left;
+			}
+
+			@keyframes glisse {
+				0%{
+					transform: translateX(-500px);
+				}
+				20%{
+					transform: translateX(-1000px);
+				}
+				40%{
+					transform: translateX(-1500px);
+				}
+				60%{
+					transform: translateX(-2000px);
+				}
+				80%{
+					transform: translateX(-2500px);
+				}
+				100%{
+					transform: translateX(0);
+				}
+			}
+			/*****/
+.PREz {
+	padding: 10px;
+	text-align: center;
+}
+/* *************** FOOTER ************* */
+footer {
+	background-color: tan;
+	color: white;
+	padding: 20px 0 10px 0;
+	text-align: center;
+}
+form {
+	margin: 0 auto;
+	min-width: 900px;
+}
+input, textarea, button {
+	border: none;
+	width: 400px;
+	padding: 15px 10px;
+	margin: 1px 0;
+	font-size: 1.2em;
+	font-family: "Advent Pro", sans-serif;
+	border-radius: 12px;
+}
+textarea {
+	height: 120px;
+}
+button {
+	font-size: 1.5em;
+	background-color: #FFFAE1;
+}
+button:hover {
+	background-color: tomato;
+	color: #FFFAE1;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+#deuxiemetrait {
+	height: 1px;
+	width: 75%;
+	background-color: #FFFAE1;
+	margin: 60px auto;
+}
+#copyrighteticon {
+	display: flex;
+	margin-bottom: 20px;
+	padding: 0 10%;
+}
+#copyright {
+	width: 50%;
+	text-align: left;
+	color: #FFFAE1;
+}
+#icons {
+	width: 50%;
+	text-align: right;
+}
+#icons a {
+	display: inline-block;
+	padding: 0 15px;
+	font-size: 1.3em;
+	color: #FFFAE1;
+}
+#icons a:hover {
+	transform: scale(1.5);
+	transition: 0.1s;
+}
+#logo {
+	font-family: "Dancing Script", cursive;
+	font-weight: bold;
+	float: left;
+}
+
+/**** page uett1 css copy***************/
